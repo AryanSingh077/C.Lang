@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 long long int factorial(int num){
+    if(num <= 0){return 1;}
+    
     long long int fact = 1;
     for(int i =1; i<=num;i++){
         fact = fact*i;
@@ -29,3 +31,4 @@ int main(){
     }
     return 0;
 }
+

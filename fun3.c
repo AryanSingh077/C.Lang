@@ -1,16 +1,14 @@
 // 3. Function with no arguments but return value
 #include <stdio.h>
 
-int add()
-{
-    int a, b;
-    scanf("%d %d", &a, &b);   
-    return a + b;
+int sum(){
+    int a,b;
+    printf("Enter your no: ");
+    scanf("%d%d", &a,&b);
+    return a+b;
 }
 
-int main()
-{
-    int sum = add();
-    printf("Sum = %d\n", sum);
-    return 0;
+int main(){
+    int A = sum();
+    printf("The sum is: %d", A);
 }

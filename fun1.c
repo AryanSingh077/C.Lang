@@ -2,13 +2,13 @@
 
 #include <stdio.h>
 
-void add(){
+void sum(){
     int a,b;
-    scanf("%d%d", &a,&b);
-    printf("Sum = %d\n", a+b);
+    printf("Enter your no.: ");
+    scanf("%d%d", &a, &b);
+    printf("Sum is = %d", a+b);
 }
-
 int main(){
-    add();
+    sum();
     return 0;
 }

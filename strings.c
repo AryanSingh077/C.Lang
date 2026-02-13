@@ -7,3 +7,9 @@
    strcmp(s1,s2) to compare
    strchr(str, ch) find character
    strstr(str,sub) find substring */
+   #include <stdio.h>
+   
+   int main(){
+    printf("evjd ");
+    return 0;
+   }

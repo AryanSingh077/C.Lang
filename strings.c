@@ -10,6 +10,7 @@
    #include <stdio.h>
    
    int main(){
-    printf("evjd ");
+    char str[] = "Aryan";
+    printf("f");
     return 0;
    }

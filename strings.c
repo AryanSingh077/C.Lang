@@ -7,10 +7,25 @@
    strcmp(s1,s2) to compare
    strchr(str, ch) find character
    strstr(str,sub) find substring */
-   #include <stdio.h>
+   // #include <stdio.h>
+   #include <string.h>
    
-   int main(){
-    char str[] = "Aryan";
-    printf("f");
-    return 0;
-   }
+   // int main(){
+   //  char str[] = "Aryan";
+   //  int len = strlen(str);
+   //  printf("%d", len);
+   //  return 0;
+   // }
+
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+   int i,len =1;
+   char str[100];
+   printf("Enter your string: ");
+   fgets(str);
+
+
+   return 0;
+}

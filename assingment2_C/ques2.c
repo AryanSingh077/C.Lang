@@ -1,4 +1,4 @@
-// #Write programs to implement 1D &amp; 2D array concepts on suitable problems such as sorting of elements, searching of element, matrix addition, subtraction, multiplication etc.
+// Write programs to implement 1D &amp; 2D array concepts on suitable problems such as sorting of elements, searching of element, matrix addition, subtraction, multiplication etc.
 
 // searching the elements:
 

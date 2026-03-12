@@ -18,6 +18,7 @@ int main() {
     len = strlen(joinedStr);
     printf("The Length of joined string is %d\n", len); // eheheh I have used strlen in this piece of code...
 
+    // here i have done the comparision:
     if(strcmp(str3,joinedStr)==0){
         printf("The strings are identical...");
     }
@@ -25,6 +26,7 @@ int main() {
         printf("The Strings are different...");
     }
 
+    // for reversing joinedStr:
     int i, j;
     for (i = 0, j = len - 1; i < j; i++, j--) {
         int temp = str3[i];
@@ -37,6 +39,7 @@ int main() {
     int n = strlen(str2);
     char temp;
 
+    // for sorting of str2:
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (str2[j] > str2[j + 1]) {
